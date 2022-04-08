@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Survey Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+       <h1 id="title">Something or Other</h1>
+       <p id="description">Something, something, something, Dark Side.</p>
+       <form id="survey-form">
+           <label id="name-label">Name</label>
+           <input type="text" id="name" placeholder="Name" required><br>
+           <label id="email-label">Email</label>
+           <input type="email" id="email" placeholder="Email" required><br>
+           <label id="number-label">Number</label>
+           <input type="number" id="number" placeholder="Number" min="0" max="9999999999"><br>
+           <select id="dropdown">
+               <option value="this">This One</option>
+               <option value="that">That One</option>
+               <option value="the-other">The Other One</option>
+           </select><br>
+           <input type="radio" name="One" value="Red">
+           <label for="Red">Red</label><br>
+           <input type="radio" name="One" value="Blue">
+           <label for="Blue">Blue</label><br>
+           <input type="radio" name="One" value="Green">
+           <label for="Red">Green</label><br>
+           <input type="checkbox" name="Two" value="Check1">
+           <label for="Check1">Check One</label><br>
+           <input type="checkbox" name="Two" value="Check2">
+           <label for="Check2">Check Two</label><br>
+           <input type="checkbox" name="Two" value="Check3">
+           <label for="Check3">Mic Check</label><br>
+
+           <label for="addtl-cmts">Additional Comments</label><br>
+           <textarea id="addtl-cmts" name="addtl-cmts" rows="4" cols="50"></textarea><br>
+           <input type="submit" id="submit" value="Submit">
+       </form>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
